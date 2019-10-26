@@ -3,17 +3,17 @@
 }
 
 .healthbar {
-    width: 80%;
-    height: 40px;
-    background-color: #eee;
+    width: 75%;
+    height: 35px;
+    background-color: #f5f5f5;
     margin: auto;
-    transition: width 500ms;
+    transition: width 475ms;
 }
 
 .controls, .log {
     margin-top: 30px;
     text-align: center;
-    padding: 10px;
+    padding: 11px;
     border: 1px solid #ccc;
     box-shadow: 0px 3px 6px #ccc;
 }
@@ -22,7 +22,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 .log ul {
@@ -32,7 +32,7 @@
 }
 
 .log ul li {
-    margin: 5px;
+    margin: 6px;
 }
 
 .log ul .player-turn {
@@ -46,7 +46,7 @@
 }
 
 button {
-    font-size: 20px;
+    font-size: 21px;
     background-color: #eee;
     padding: 12px;
     box-shadow: 0 1px 1px black;
@@ -86,7 +86,7 @@ button {
 }
 
 #give-up {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
 }
 
 #give-up:hover {
